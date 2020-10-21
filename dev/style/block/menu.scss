@@ -1,10 +1,3 @@
-.wrapper--menu {
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
 .menu {
   flex: 1;
   display: flex;
@@ -22,7 +15,7 @@
   flex: 1;
   display: flex;
   align-items: center;
-  border-bottom: 1.5px #000 solid;
+  border-bottom: 1.5px $black solid;
   padding: 20px;
   &:last-child {
     border-bottom: none;
@@ -37,7 +30,7 @@
 .menu__img {
   max-width: 70px;
   border-radius: 20%;
-  background-color: #CCDEF9;
+  background-color: $pBlue;
   padding: 10px;
   margin-right: 20px;
 }

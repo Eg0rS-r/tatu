@@ -1,3 +1,9 @@
+$cyan: #A1C2F4;
+$white: #FFF;
+$black: #000;
+$blue: #3722D0;
+$pBlue: #CCDEF9;
+
 * {
     padding: 0;
     margin: 0;
@@ -14,11 +20,14 @@ ul>li {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: $black;
 }
 
 .wrapper {
-    background-color: #a1c2f4;
+    min-height: 100vh;
+    background-color: $cyan;
+    display: flex;
+    flex-direction: column;
 }
 
 @import "./block/*";

@@ -1,7 +1,6 @@
-.wrapper-pre{
+.preview{
   width: 100vw;
   height: 100vh;
-  background-color:#A1C2F4;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -9,27 +8,27 @@
   padding: 50px 60px 90px;
 }
 
-.wrapper-pre__logo{
+.preview__logo{
   max-width: 220px;
   margin-bottom: 50px;
 }
 
-.wrapper-pre__header{
+.preview__header{
   font-size: 22px;
   letter-spacing: 1px;
   text-align: center;
 }
 
-.wrapper-pre__button-spc{
+.preview__button-spc{
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.wrapper-pre__button{
-  background: #3722D0;
-  color: #FFF;
+.preview__button{
+  background: $blue;
+  color: $white;
   border-radius: 10px;
   padding: 12px 23px;
   font-size: 20px;
@@ -42,7 +41,7 @@
   }
 }
 
-.wrapper-pre__button-link {
+.preview__button-link {
   margin-top: 30px;
   &:first-child {
     margin-top: 0;

@@ -1,0 +1,24 @@
+.sign {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign__logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.sign__header {
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.sign__help {
+  text-decoration: underline;
+  font-size: 18px;
+}

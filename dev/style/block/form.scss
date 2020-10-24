@@ -1,0 +1,42 @@
+.sign-form {
+    background-color: $blue;
+    border-radius: 6%;
+    padding: 20px 15px;
+    width: 100%;
+}
+
+.sign-form__list {
+    margin-bottom: 18px;
+}
+
+.sign-form__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.sign-form__text {
+    color: $white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.sign-form__input {
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 4px 6px;
+    border: none;
+}
+
+.sign-form__button {
+    background-color: $white;
+    width: fit-content;
+    font-size: 18px;
+    padding: 5px 18px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
